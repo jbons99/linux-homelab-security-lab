@@ -71,3 +71,12 @@ The environment uses Uptime Kuma to continuously monitor service availability, l
 PM2 is used to manage long-running backend services, automate restarts on failure, and monitor application uptime across deployed applications.
 
 ![PM2 Status](Screenshot%20Pm2-status.png)
+
+
+## Firewall & SSH Hardening
+
+The server environment is hardened using UFW firewall policies and SSH security best practices including key-only authentication and disabled root login.
+
+### UFW Firewall Configuration & SSH Hardening
+
+![Firewall & SSH Hardening](Screenshot-ssh-hardening-firewall.png)
