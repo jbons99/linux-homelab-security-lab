@@ -57,3 +57,13 @@ nginx Reverse Proxy
 Hosted Applications / PM2 Services / Docker Containers
    ↓
 Monitoring & Logs
+
+
+
+
+
+## Infrastructure Monitoring
+
+The environment uses Uptime Kuma to continuously monitor service availability, latency, and infrastructure health across deployed applications and services.
+
+![Uptime Kuma Dashboard](Screenshot%20KumaUptime.png)
